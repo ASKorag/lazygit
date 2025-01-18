@@ -26,4 +26,10 @@ RUN echo "alias gg=lazygit" >> ~/.profile
 
 
 
+
+
+
+
+
+
 ENTRYPOINT [ "lazygit" ]

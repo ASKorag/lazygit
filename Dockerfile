@@ -16,4 +16,14 @@ COPY --from=build /go/src/github.com/jesseduffield/lazygit ./
 COPY --from=build /go/src/github.com/jesseduffield/lazygit/lazygit /bin/
 RUN echo "alias gg=lazygit" >> ~/.profile
 
+
+
+
+
+
+
+
+
+
+
 ENTRYPOINT [ "lazygit" ]

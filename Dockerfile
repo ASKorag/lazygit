@@ -9,6 +9,12 @@ RUN go mod download
 COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build
 
+
+
+
+
+
+
 FROM alpine:3.19
 RUN apk add --no-cache -U git xdg-utils
 WORKDIR /go/src/github.com/jesseduffield/lazygit/
